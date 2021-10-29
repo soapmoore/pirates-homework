@@ -1,7 +1,7 @@
 import React from "react";
 import "../assets/css/Pirate.css";
 
-function Pirate(props) {
+export function Pirate(props) {
   return (
     <section>
       <h3>{props.name}</h3>
